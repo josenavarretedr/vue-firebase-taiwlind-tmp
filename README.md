@@ -1,8 +1,4 @@
-# Vue 3 + Vite
-
-Este template debería ayudarte a comenzar a desarrollar con Vue 3 en Vite. El template utiliza `<script setup>` de Vue 3 SFCs, consulta la [documentación de script setup](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) para obtener más información.
-
-Aprende más sobre el soporte de IDE para Vue en la [Guía de escalado de Vue Docs](https://vuejs.org/guide/scaling-up/tooling.html#ide-support).
+# Vue 3 + Vite + Firebase + Tailwind CSS Template
 
 ## Configuración del Proyecto
 
@@ -34,7 +30,12 @@ El proyecto incluye las siguientes dependencias principales:
 
 El proyecto utiliza un archivo `.env` para configurar las variables de entorno necesarias para Firebase. Asegúrate de crear un archivo `.env` en la raíz del proyecto con las siguientes variables:
 
-VITE_FIREBASE_API_KEY=your_api_key VITE_FIREBASE_AUTH_DOMAIN=your_auth_domain VITE_FIREBASE_PROJECT_ID=your_project_id VITE_FIREBASE_STORAGE_BUCKET=your_storage_bucket VITE_FIREBASE_MESSAGING_SENDER_ID=your_messaging_sender_id VITE_FIREBASE_APP_ID=your_app_id
+VITE_FIREBASE_API_KEY=your_api_key
+VITE_FIREBASE_AUTH_DOMAIN=your_auth_domain
+VITE_FIREBASE_PROJECT_ID=your_project_id
+VITE_FIREBASE_STORAGE_BUCKET=your_storage_bucket
+VITE_FIREBASE_MESSAGING_SENDER_ID=your_messaging_sender_id
+VITE_FIREBASE_APP_ID=your_app_id
 
 ### Configuración de Firebase
 
